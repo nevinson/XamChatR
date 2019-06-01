@@ -1,4 +1,4 @@
-﻿namespace XamChatR.Shared.Core.EventHandlers
+﻿namespace XamChatR.Core.EventHandlers
 {
     public class MessageEventArgs : IMessageEventArgs
     {

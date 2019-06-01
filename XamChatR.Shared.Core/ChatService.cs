@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
-using XamChatR.Shared.Core.EventHandlers;
+using XamChatR.Core.EventHandlers;
 
-namespace XamChatR.Shared.Core
+namespace XamChatR.Core
 {
     public class ChatService
     {
