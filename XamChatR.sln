@@ -9,6 +9,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamChatR", "XamChatR\XamCha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamChatR.Api", "XamChatR.Api\XamChatR.Api.csproj", "{6D472A2D-EB0E-4FE4-8052-4D08BEC361F1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BCFF917D-038E-4059-8C46-604EBE7FD1F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{A16A814F-2ED4-4CBD-A57D-F94599E0224E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile", "Mobile", "{EFEF7EDD-6D34-49DD-AC65-0D2C767E6788}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamChatR.Shared.Core", "XamChatR.Shared.Core\XamChatR.Shared.Core.csproj", "{3AF0E45F-F166-47EC-A579-21A22B02547E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamChat.ConsoleApp", "XamChat.ConsoleApp\XamChat.ConsoleApp.csproj", "{B0FBCE57-D498-4C2D-BE0F-01C9FAC45375}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,9 +41,23 @@ Global
 		{6D472A2D-EB0E-4FE4-8052-4D08BEC361F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D472A2D-EB0E-4FE4-8052-4D08BEC361F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D472A2D-EB0E-4FE4-8052-4D08BEC361F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF0E45F-F166-47EC-A579-21A22B02547E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF0E45F-F166-47EC-A579-21A22B02547E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF0E45F-F166-47EC-A579-21A22B02547E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF0E45F-F166-47EC-A579-21A22B02547E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0FBCE57-D498-4C2D-BE0F-01C9FAC45375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FBCE57-D498-4C2D-BE0F-01C9FAC45375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FBCE57-D498-4C2D-BE0F-01C9FAC45375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FBCE57-D498-4C2D-BE0F-01C9FAC45375}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FB69CAB-69BB-45DA-B3A9-4BDFF5EEBC80} = {EFEF7EDD-6D34-49DD-AC65-0D2C767E6788}
+		{C7F30959-0FC7-4CE2-B819-245458E1353D} = {EFEF7EDD-6D34-49DD-AC65-0D2C767E6788}
+		{3AF0E45F-F166-47EC-A579-21A22B02547E} = {BCFF917D-038E-4059-8C46-604EBE7FD1F7}
+		{B0FBCE57-D498-4C2D-BE0F-01C9FAC45375} = {A16A814F-2ED4-4CBD-A57D-F94599E0224E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B447D581-2FC4-4B99-B578-62BADF0FC776}
